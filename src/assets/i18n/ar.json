@@ -1,0 +1,90 @@
+{
+    "Dashboard":
+    {
+        "administration":"الادارة",
+        "sales":"المبيعات"
+    },
+    "label": 
+    {
+        "login": "تسجيل دخول",
+        "logout": "تسجيل خروج",
+        "password": "كلمة المرور",
+        "username": "اسم المستخدم",
+        "user": 
+        {
+          "single": "مستخدم",
+          "tsingle": "المستخدم",
+          "plural": "مستخدمين",
+          "tplural": "المستخدمين"
+        },
+        "branch": 
+        {
+          "single": "فرع",
+          "tsingle": "الفرع",
+          "plural": "فروع",
+          "tplural": "الفروع"
+        },
+        "notification": 
+        {
+          "single": "تنبيه",
+          "tsingle": "التنبيه",
+          "plural": "تنبيهات",
+          "tplural": "التنبيهات"
+        },
+        "newNotifications": "تنبيهات جديدة",
+        "userId":"معرف المستخدم",
+        "name":"الاسم",
+        "department":"القسم",    
+        "status":"الحالة",
+        "actions":"العمليات"
+    },
+    "msg": {},
+    "screen": 
+    {
+        "login": "تسجيل الدخول",
+        "admin": "إدارة النظام",
+        "users": "المستخدمين",
+        "branches": "الفروع",
+        "locations": "المواقع",
+        "systems": "ا`لأنظمة",
+        "dashboard": "لوحه التحكم",
+        "userManagment":"إدارة المستخدم",
+        "administration":"الادارة",
+        "opportunities":"الفرص",
+        "sales":"المبيعات",
+        "chat": "دردشة",
+        "messages": "الرسائل",
+        "myProfile": "ملفي الشخصي",
+        "settings": "الإعدادات",
+        "lockScreen":" غلق الشاشة"
+    },
+    "lang":
+    {
+        "ar": "العربية",
+        "en": "English",
+        "fr": "Français",
+        "tr": "Türk"
+    },
+    "userManagment":
+    {
+        "roles":"الوظائف",
+        "permissionGroups": "مجموعة الصلاحيات",
+        "users":"المستخدمين",
+        "userPermissions": "صلاحيات المستخدم",
+        "teams":"المجموعات"
+    },
+    "Administration":
+    {
+        "variables":"المتغيرات",
+        "branches/offices":"الفروع/المكاتب",
+        "locations":"المواقع",
+        "products":"المنتجات"
+    },
+    "Sales":
+    {
+        "processes":"العمليات",
+        "customers":"العملاء",
+        "reports":"التقارير"
+    },
+    "Opportunities":{}
+}

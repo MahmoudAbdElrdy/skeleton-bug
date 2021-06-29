@@ -1,0 +1,480 @@
+<!-- <div class="row">
+    <div class="col-sm-11">
+        <div class="dt-responsive table-responsive ml-5">
+          <table datatable class="table table-striped row-border table-hover">
+            <thead>
+              <tr>
+                <th></th>
+                <th>{{ 'label.userId' | translate }}</th>
+                <th>{{ 'label.name' | translate }}</th>
+                <th>{{ 'label.department' | translate}}</th>
+                <th>{{ 'label.branch.single' | translate}}</th>
+                <th>{{ 'userManagment.permissionGroups' | translate}}</th>
+                <th>{{ 'label.status' | translate}}</th>
+                <th>{{ 'label.actions' | translate}}</th>
+              </tr>
+              <tr>
+                <th></th>
+                <th translate>label.userId</th>
+                <th translate>label.name</th>
+                <th translate>label.department</th>
+                <th translate>label.branch.single</th>
+                <th translate>userManagment.permissionGroups</th>
+                <th translate>label.status</th>
+                <th translate>label.actions</th>
+              </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td></td>
+                    <td>
+                        <div class="form-group mx-sm-0">
+                            <label for="inputUserID" class="sr-only"></label>
+                            <input type="number" class="form-control" id="inputUserID" placeholder="UserID">
+                        </div>
+                    </td>
+                    <td>
+                        <div class="form-group mx-sm-0">
+                            <label for="inputName" class="sr-only"></label>
+                            <input type="text" class="form-control" id="inputName" placeholder="Name">
+                        </div>
+                    </td>
+                    <td>
+                        <div class="form-group">
+                            <select class="form-control" id="department">
+                                <option>Software Engineer</option>
+                                <option>Web Development</option>
+                                <option>UI/UX Designer</option>
+                                <option>Mobile Development</option>
+                                <option>Marketing</option>
+                                <option>Quality Control</option>
+                                <option>Testing</option>
+                                <option>Technical Support</option>
+                            </select>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="form-group">
+                            <select class="form-control" id="branch">
+                                <option>Egypt</option>
+                                <option>Yemen</option>
+                                <option>Kuwait</option>
+                                <option>Iraq</option>
+                                <option>Libya</option>
+                                <option>Djibouti</option>
+                                <option>Oman</option>
+                                <option>Mauritania</option>
+                                <option>Palestine</option>
+                                <option>Qatar</option>
+                                <option>Saudi Arabia</option>
+                                <option>Somalia</option>
+                                <option>Sudan</option>
+                                <option>Syria</option>
+                                <option>Tunisia</option>
+                                <option>United Arab Emirates</option>
+                            </select>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="form-group">
+                            <select class="form-control" id="permissionGroup">
+                                <option>Permission Group</option>
+                            </select>
+                        </div>
+                    </td>
+                    <td>
+                        <div class="form-group">
+                            <select class="form-control" id="status">
+                                <option>Active</option>
+                                <option>Disabled</option>
+                            </select>
+                        </div>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>1</td>
+                    <td>Mustafa Ahmed</td>
+                    <td>Development</td>
+                    <td>Egypt</td>
+                    <td>Permision Group</td>
+                    <td>
+                        <span class="badge badge-light-success">Active</span>
+                    </td>
+                    <td>
+                        <div class="overlay-edit">
+                            <button type="button" class="btn btn-icon btn-success m-1"><i class="feather icon-check-circle"></i></button>
+                            <button type="button" class="btn btn-icon btn-danger"><i class="feather icon-trash-2"></i></button>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>2</td>
+                    <td>Ali Ahmed</td>
+                    <td>Web Development</td>
+                    <td>Egypt</td>
+                    <td>Permision Group</td>
+                    <td>
+                        <span class="badge badge-light-success">Active</span>
+                    </td>
+                    <td>
+                        <div class="overlay-edit">
+                            <button type="button" class="btn btn-icon btn-success m-1"><i class="feather icon-check-circle"></i></button>
+                            <button type="button" class="btn btn-icon btn-danger"><i class="feather icon-trash-2"></i></button>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>3</td>
+                    <td>Mona Ali</td>
+                    <td>UI/UX Designer</td>
+                    <td>Egypt</td>
+                    <td>Permision Group</td>
+                    <td>
+                        <span class="badge badge-light-danger">Disabled</span>
+                    </td>
+                    <td>
+                        <div class="overlay-edit">
+                            <button type="button" class="btn btn-icon btn-success m-1"><i class="feather icon-check-circle"></i></button>
+                            <button type="button" class="btn btn-icon btn-danger"><i class="feather icon-trash-2"></i></button>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>4</td>
+                    <td>Ali Sayed</td>
+                    <td>Mobile Development</td>
+                    <td>Egypt</td>
+                    <td>Permision Group</td>
+                    <td>
+                        <span class="badge badge-light-success">Active</span>
+                    </td>
+                    <td>
+                        <div class="overlay-edit">
+                            <button type="button" class="btn btn-icon btn-success m-1"><i class="feather icon-check-circle"></i></button>
+                            <button type="button" class="btn btn-icon btn-danger"><i class="feather icon-trash-2"></i></button>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>5</td>
+                    <td>Noran Ahmed</td>
+                    <td>Quality Control</td>
+                    <td>Egypt</td>
+                    <td>Permision Group</td>
+                    <td>
+                        <span class="badge badge-light-danger">Disabled</span>
+                    </td>
+                    <td>
+                        <div class="overlay-edit">
+                            <button type="button" class="btn btn-icon btn-success m-1"><i class="feather icon-check-circle"></i></button>
+                            <button type="button" class="btn btn-icon btn-danger"><i class="feather icon-trash-2"></i></button>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>6</td>
+                    <td>Shrooq Ahmed</td>
+                    <td>Quality Control</td>
+                    <td>Egypt</td>
+                    <td>Permision Group</td>
+                    <td>
+                        <span class="badge badge-light-danger">Disabled</span>
+                    </td>
+                    <td>
+                        <div class="overlay-edit">
+                            <button type="button" class="btn btn-icon btn-success m-1"><i class="feather icon-check-circle"></i></button>
+                            <button type="button" class="btn btn-icon btn-danger"><i class="feather icon-trash-2"></i></button>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>7</td>
+                    <td>Shrooq zhran</td>
+                    <td>Marketing</td>
+                    <td>Egypt</td>
+                    <td>Permision Group</td>
+                    <td>
+                        <span class="badge badge-light-danger">Disabled</span>
+                    </td>
+                    <td>
+                        <div class="overlay-edit">
+                            <button type="button" class="btn btn-icon btn-success m-1"><i class="feather icon-check-circle"></i></button>
+                            <button type="button" class="btn btn-icon btn-danger"><i class="feather icon-trash-2"></i></button>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>8</td>
+                    <td>Noran Magdy</td>
+                    <td>Marketing</td>
+                    <td>Egypt</td>
+                    <td>Permision Group</td>
+                    <td>
+                        <span class="badge badge-light-danger">Disabled</span>
+                    </td>
+                    <td>
+                        <div class="overlay-edit">
+                            <button type="button" class="btn btn-icon btn-success m-1"><i class="feather icon-check-circle"></i></button>
+                            <button type="button" class="btn btn-icon btn-danger"><i class="feather icon-trash-2"></i></button>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>9</td>
+                    <td>Nora Magdy</td>
+                    <td>Marketing</td>
+                    <td>Egypt</td>
+                    <td>Permision Group</td>
+                    <td>
+                        <span class="badge badge-light-success">Active</span>
+                    </td>
+                    <td>
+                        <div class="overlay-edit">
+                            <button type="button" class="btn btn-icon btn-success m-1"><i class="feather icon-check-circle"></i></button>
+                            <button type="button" class="btn btn-icon btn-danger"><i class="feather icon-trash-2"></i></button>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>10</td>
+                    <td>Mohamed Yousef</td>
+                    <td>Marketing</td>
+                    <td>Egypt</td>
+                    <td>Permision Group</td>
+                    <td>
+                        <span class="badge badge-light-success">Active</span>
+                    </td>
+                    <td>
+                        <div class="overlay-edit">
+                            <button type="button" class="btn btn-icon btn-success m-1"><i class="feather icon-check-circle"></i></button>
+                            <button type="button" class="btn btn-icon btn-danger"><i class="feather icon-trash-2"></i></button>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+          </table>
+        </div>
+    </div>
+</div>
+
+ -->
+
+ <div class="row">
+    <div class="col-sm-12">
+      <app-card [hidHeader]="true" cardClass="user-profile-list">
+        <div class="dt-responsive table-responsive">
+          <table datatable class="table row-border table-hover">
+            <thead>
+              <tr>
+                <th>UserID</th>
+                <th>Name</th>
+                <th>Department</th>
+                <th>Branch</th>
+                <th>Permission Groups</th>
+                <th>Status</th>
+                <th>Actions</th>
+              </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Mustafa Ahmed</td>
+                    <td>Development</td>
+                    <td>Egypt</td>
+                    <td>Permision Group</td>
+                    <td>
+                        <span class="badge badge-light text-success">Active</span>
+                    </td>
+                    <td>
+                        <div class="overlay-edit">
+                            <button type="button" class="btn btn-icon btn-success m-1"><i class="feather icon-check-circle"></i></button>
+                            <button type="button" class="btn btn-icon btn-danger"><i class="feather icon-trash-2"></i></button>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Ali Ahmed</td>
+                    <td>Web Development</td>
+                    <td>Egypt</td>
+                    <td>Permision Group</td>
+                    <td>
+                        <span class="badge badge-light text-success">Active</span>
+                    </td>
+                    <td>
+                        <div class="overlay-edit">
+                            <button type="button" class="btn btn-icon btn-success m-1"><i class="feather icon-check-circle"></i></button>
+                            <button type="button" class="btn btn-icon btn-danger"><i class="feather icon-trash-2"></i></button>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Mona Ali</td>
+                    <td>UI/UX Designer</td>
+                    <td>Egypt</td>
+                    <td>Permision Group</td>
+                    <td>
+                        <span class="badge badge-light text-danger">Disabled</span>
+                    </td>
+                    <td>
+                        <div class="overlay-edit">
+                            <button type="button" class="btn btn-icon btn-success m-1"><i class="feather icon-check-circle"></i></button>
+                            <button type="button" class="btn btn-icon btn-danger"><i class="feather icon-trash-2"></i></button>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Ali Sayed</td>
+                    <td>Mobile Development</td>
+                    <td>Egypt</td>
+                    <td>Permision Group</td>
+                    <td>
+                        <span class="badge badge-light text-success">Active</span>
+                    </td>
+                    <td>
+                        <div class="overlay-edit">
+                            <button type="button" class="btn btn-icon btn-success m-1"><i class="feather icon-check-circle"></i></button>
+                            <button type="button" class="btn btn-icon btn-danger"><i class="feather icon-trash-2"></i></button>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>Noran Ahmed</td>
+                    <td>Quality Control</td>
+                    <td>Egypt</td>
+                    <td>Permision Group</td>
+                    <td>
+                        <span class="badge badge-light text-danger">Disabled</span>
+                    </td>
+                    <td>
+                        <div class="overlay-edit">
+                            <button type="button" class="btn btn-icon btn-success m-1"><i class="feather icon-check-circle"></i></button>
+                            <button type="button" class="btn btn-icon btn-danger"><i class="feather icon-trash-2"></i></button>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>Shrooq Ahmed</td>
+                    <td>Quality Control</td>
+                    <td>Egypt</td>
+                    <td>Permision Group</td>
+                    <td>
+                        <span class="badge badge-light text-danger">Disabled</span>
+                    </td>
+                    <td>
+                        <div class="overlay-edit">
+                            <button type="button" class="btn btn-icon btn-success m-1"><i class="feather icon-check-circle"></i></button>
+                            <button type="button" class="btn btn-icon btn-danger"><i class="feather icon-trash-2"></i></button>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>Shrooq zhran</td>
+                    <td>Marketing</td>
+                    <td>Egypt</td>
+                    <td>Permision Group</td>
+                    <td>
+                        <span class="badge badge-light text-danger">Disabled</span>
+                    </td>
+                    <td>
+                        <div class="overlay-edit">
+                            <button type="button" class="btn btn-icon btn-success m-1"><i class="feather icon-check-circle"></i></button>
+                            <button type="button" class="btn btn-icon btn-danger"><i class="feather icon-trash-2"></i></button>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>Noran Magdy</td>
+                    <td>Marketing</td>
+                    <td>Egypt</td>
+                    <td>Permision Group</td>
+                    <td>
+                        <span class="badge badge-light text-danger">Disabled</span>
+                    </td>
+                    <td>
+                        <div class="overlay-edit">
+                            <button type="button" class="btn btn-icon btn-success m-1"><i class="feather icon-check-circle"></i></button>
+                            <button type="button" class="btn btn-icon btn-danger"><i class="feather icon-trash-2"></i></button>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td>Nora Magdy</td>
+                    <td>Marketing</td>
+                    <td>Egypt</td>
+                    <td>Permision Group</td>
+                    <td>
+                        <span class="badge badge-light text-success">Active</span>
+                    </td>
+                    <td>
+                        <div class="overlay-edit">
+                            <button type="button" class="btn btn-icon btn-success m-1"><i class="feather icon-check-circle"></i></button>
+                            <button type="button" class="btn btn-icon btn-danger"><i class="feather icon-trash-2"></i></button>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td>Mohamed Yousef</td>
+                    <td>Marketing</td>
+                    <td>Egypt</td>
+                    <td>Permision Group</td>
+                    <td>
+                        <span class="badge badge-light text-success">Active</span>
+                    </td>
+                    <td>
+                        <div class="overlay-edit">
+                            <button type="button" class="btn btn-icon btn-success m-1"><i class="feather icon-check-circle"></i></button>
+                            <button type="button" class="btn btn-icon btn-danger"><i class="feather icon-trash-2"></i></button>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <th>UserID</th>
+                <th>Name</th>
+                <th>Department</th>
+                <th>Branch</th>
+                <th>Permision Groups</th>
+                <th>Status</th>
+                <th>Actions</th>
+              </tr>
+            </tfoot>
+          </table>
+          <!-- Previous and Next Paging -->
+          <div class="pagination-block text-center">
+            <nav aria-label="Page navigation example" class="d-inline-block">
+              <ul class="pagination">
+                <li class="page-item"><a class="page-link" href="javascript:">Previous</a></li>
+                <li class="page-item"><a class="page-link" href="javascript:">1</a></li>
+                <li class="page-item"><a class="page-link" href="javascript:">2</a></li>
+                <li class="page-item"><a class="page-link" href="javascript:">3</a></li>
+                <li class="page-item"><a class="page-link" href="javascript:">Next</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </app-card>
+    </div>
+</div>
+  
+

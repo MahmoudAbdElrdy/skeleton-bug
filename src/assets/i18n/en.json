@@ -1,0 +1,87 @@
+{
+    "Dashboard":
+    {
+        "administration":"Administration",
+        "sales":"Sales"
+    },
+    "label":
+    {
+        "login": "Login",
+        "logout": "Logout",
+        "password": "Password",
+        "username": "Username",
+        "user": {
+          "single": "User",
+          "tsingle": "User",
+          "plural": "Users",
+          "tplural": "Users"
+        },
+        "branch": {
+          "single": "Branch",
+          "tsingle": "Branches",
+          "plural": "Branch",
+          "tplural": "Branches"
+        },
+        "notification": {
+          "single": "Notification",
+          "tsingle": "Notification",
+          "plural": "Notifications",
+          "tplural": "Notifications"
+        },
+        "newNotifications": "New Notifications",
+        "userId":"UserID",
+        "name":"Name",
+        "department":"Department",    
+        "status":"Status",
+        "actions":"Actions"
+    },
+    "msg": {},
+    "screen": 
+    {
+        "login": "Login",
+        "admin": "System Administration",
+        "users": "Users",
+        "branches": "Branches",
+        "locations": "Locations",
+        "systems": "Systems",
+        "dashboard": "Dashboard",
+        "userManagment":"User Managment",
+        "administration":"Administration",
+        "opportunities":"Opportunities",
+        "sales":"Sales",
+        "chat": "Chat",
+        "messages": "My Messages",
+        "myProfile": "My Profile",
+        "settings": "Settings",
+        "lockScreen":" Lock Screen"
+    },
+    "lang":
+    {
+        "ar": "العربية",
+        "en": "English",
+        "fr": "Français",
+        "tr": "Türk"
+    },
+    "userManagment":
+    {
+        "roles":"Roles",
+        "permissionGroups": "Permission Groups",
+        "users":"Users",
+        "userPermissions": "User Permissions",
+        "teams":"Teams"
+    },
+    "Administration":
+    {
+        "variables":"Variables",
+        "branches/offices":"Branches/Offices",
+        "locations":"Locations",
+        "products":"Products"
+    },
+    "Sales":
+    {
+        "processes":"Processes",
+        "customers":"Customers",
+        "reports":"Reports"
+    },
+    "Opportunities":{}
+}

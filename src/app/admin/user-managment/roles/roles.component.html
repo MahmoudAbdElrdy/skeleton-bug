@@ -1,0 +1,81 @@
+<!-- toggle between save and cancel buttons -->
+<!-- 
+<div class="row">
+    <div class="col-sm-12">
+      <app-card [hidHeader]="true" cardClass="user-profile-list">
+        <div class="dt-responsive table-responsive">
+          <table datatable class="table row-border table-hover">
+            <thead>
+              <tr>
+                <th>{{ 'label.userId' | translate}}</th>
+                <th>{{ 'label.name' | translate}}</th>
+                <th>{{ 'label.status' | translate}}</th>
+                <th>{{ 'label.actions' | translate}}</th>
+                <th>User ID</th>
+                <th>Name</th>
+                <th>Status</th>
+                <th>Actions</th>
+              </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Mustafa Ahmed</td>
+                    <td><span class="badge badge-light text-success">Active</span></td>
+                    <td>
+                        <div class="overlay-edit">
+                            <button type="button" class="btn btn-icon btn-success"><i class="feather icon-check-circle"></i></button>
+                            <button type="button" class="btn btn-icon btn-danger"><i class="feather icon-trash-2"></i></button>
+                            <button type="button" class="btn btn-icon btn-warning"><i class="far fa-edit"></i></button>
+                        </div>
+                        <div>
+                            <button type="button" class="btn btn-success" *ngIf="editMode" (click)="onEditItem()">
+                                Edit
+                            </button>
+                            <button type="button" class="btn btn-success ml-2" *ngIf="saveCancelMode" (click)="onSaveCancelItem()">
+                                Save
+                            </button>
+                            <button type="button" class="btn btn-danger ml-2" *ngIf="saveCancelMode" (click)="onSaveCancelItem()">
+                                Cancel
+                            </button>
+                            <button type="button" class="btn btn-icon btn-danger ml-2" *ngIf="deleteMode">
+                                Delete
+                            </button>
+                            <a>
+                                <button type="button" class="btn btn-warning ml-2" *ngIf="permissionMode">
+                                    Permission
+                                </button>
+                            </a>
+                        </div>
+                    </td>
+                </tr>  
+            </tbody>
+            <tfoot>
+              <tr>
+                <th>UserID</th>
+                <th>Name</th>
+                <th>Status</th>
+                <th>Actions</th>
+              </tr>
+            </tfoot>
+          </table>
+          Previous and Next Paging
+          <div class="pagination-block text-center">
+            <nav aria-label="Page navigation example" class="d-inline-block">
+              <ul class="pagination">
+                <li class="page-item"><a class="page-link" href="javascript:">Previous</a></li>
+                <li class="page-item"><a class="page-link" href="javascript:">1</a></li>
+                <li class="page-item"><a class="page-link" href="javascript:">2</a></li>
+                <li class="page-item"><a class="page-link" href="javascript:">3</a></li>
+                <li class="page-item"><a class="page-link" href="javascript:">Next</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </app-card>
+    </div>
+</div>
+  
+ -->
+
+<app-basic-grid></app-basic-grid>
